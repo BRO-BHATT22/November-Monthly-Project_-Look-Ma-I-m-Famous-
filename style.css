@@ -20,13 +20,13 @@
     transform: perspective(1px) translateZ(0);
     transition-duration: 0.3s;
     transition-property: background;
-    box-shadow: inset 0 0 0 4px, #ffffff 0 0 1px rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px, #888686 0 0 1px rgba(51, 47, 47, 0);
 }
 
 .hvr:hover {
     padding: 1em;
     cursor: pointer;
-    background: #e1e1e1;
+    background: #534f4f;
     text-decoration: none;
     color: #666;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -113,8 +113,4 @@ body{
 
 .hero-2 {
   margin-top: 5em;
-}
-
-.card-img-top2 {
-  
 }
